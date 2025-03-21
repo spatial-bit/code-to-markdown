@@ -1,4 +1,4 @@
-# Markdown Folder Clip
+# Easy Prompt
 
 **Right-click any folder in the VS Code Explorer to copy all readable text files as Markdown.**  
 Each file is represented with a heading (using `#`) and its contents underneath. Folder hierarchy is reflected using heading levels.
@@ -58,3 +58,7 @@ MIT License
 
 Use of this extension is subject to the terms and conditions in [TERMS_OF_USE.txt](./TERMS_OF_USE.txt).
 This plugin may collect basic anonymized telemetry. See [PRIVACY.md](./PRIVACY.md) for details.
+
+## Marketplace URL
+
+https://marketplace.visualstudio.com/items?itemName=WildBot.easy-prompt

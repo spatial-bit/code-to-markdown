@@ -1,6 +1,6 @@
 {
-    "name": "code-to-markdown",
-    "displayName": "code-to-markdown",
+    "name": "easy-prompt",
+    "displayName": "Easy Prompt",
     "publisher": "WildBot",
     "description": "Right-click a folder to copy a Markdown version of all text files with heading structure",
     "version": "0.0.1",
@@ -37,6 +37,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/your-username/markdown-folder-clip"
+        "url": "https://github.com/spatial-bit/code-to-markdown"
     }
 }
