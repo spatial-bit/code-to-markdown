@@ -1,0 +1,42 @@
+{
+    "name": "code-to-markdown",
+    "displayName": "code-to-markdown",
+    "publisher": "WildBot",
+    "description": "Right-click a folder to copy a Markdown version of all text files with heading structure",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.85.0"
+    },
+    "activationEvents": [
+        "onCommand:extension.copyFolderAsMarkdown"
+    ],
+    "main": "./extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.copyFolderAsMarkdown",
+                "title": "Copy Folder as Markdown"
+            }
+        ],
+        "menus": {
+            "explorer/context": [
+                {
+                    "when": "resourceScheme == 'file'",
+                    "command": "extension.copyFolderAsMarkdown",
+                    "group": "navigation"
+                }
+            ]
+        }
+    },
+    "dependencies": {
+        "clipboardy": "^3.0.0"
+    },
+    "devDependencies": {
+        "vscode": "^1.1.0",
+        "@types/vscode": "^1.85.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/your-username/markdown-folder-clip"
+    }
+}
