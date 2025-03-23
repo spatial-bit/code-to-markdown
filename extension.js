@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 function isTextFile(filePath) {
-  const textExtensions = ['.txt', '.md', '.js', '.ts', '.cs', '.py', '.json', '.html', '.css', '.xml'];
+  const textExtensions = ['.txt', '.md', '.js', '.ts', '.cs', '.py', '.json', '.html', '.css', '.xml', '.yaml', '.yml', '.csv', '.log', '.sql', '.sh', '.bash', '.bat', '.ini', '.properties', '.txt', '.bicep', '.ps1', '.psm1', '.psd1', '.pssc', '.tf', '.tfstate', '.tfvars', '.dockerfile', '.dockerignore', '.gitignore', '.npmignore', '.env', '.env.example', '.env.local', '.env.development', '.env.production', '.env.test', '.env.staging', '.env.production.local', '.env.development.local', '.env.test.local', '.env.staging.local', '.env.example.local', '.env.example.development', '.env.example.production', '.env.example.test', '.env.example.staging', '.env.example.production.local', '.env.example.development.local', '.env.example.test.local', '.env.example.staging.local', '.c', '.cpp', '.h', '.hpp', '.java', '.swift', '.go', '.php', '.rb', '.pl', '.lua', '.r', '.dart', '.kotlin', '.scala', '.groovy', '.clj', '.cljs', '.elixir', '.erlang', '.coffee', '.less', '.scss', '.sass'];
   return textExtensions.includes(path.extname(filePath).toLowerCase());
 }
 

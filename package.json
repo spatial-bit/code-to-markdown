@@ -3,7 +3,7 @@
     "displayName": "Easy Prompt",
     "publisher": "WildBot",
     "description": "Right-click a folder to copy a Markdown version of all text files with heading structure",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "engines": {
         "vscode": "^1.85.0"
     },
